@@ -1,76 +1,39 @@
-Este es un parrafo
+*[MMD]: ofrece muchas más posibilidades que *[MD]:
 
-Este es otro parrafo
+# Markdown
 
-Este es  
-Un parrafo  
-Extraño
-# Este es un encabezado
-## Este es el segundo encabezado
-### Este es el tercer encabezado
-#### Este es el cuarto encabezado
-##### Este es el quinto encabezado
-###### Este es el sexto encabezado
-# Este es un encabezado encerrado #
-Esto es un encabezado con iguales
-===
-Esto es un encabezado con guiones
---
-> Esto es una cita, y no una cita romántica -Alejandra
-> Me anime a una segunda cita
->
-> > porque no es romantica
-> 
-> es sino, un ejemplo
-- lista 1
-- lista 2
-* lista 3
-* lista 4
-+ lista 5
-+ lista 6
-    * Elemento 1
-    * elemento 2
-    - elemento 3
-    - elemento 4
-1. Elemento de lista 1
-2. Elemento de lista 2
-    - elemento de lista 3
-    - elemento de lista 4
-1. Elemento de lista 5
-2. Elemento de lista 6
-~~~
-Creando primeros codigos de bloque
-Puedo añadir tantas lineas y parrafos como yo quiera
-~~~
-***
----
-___
-*Cursiva*
+: Herramienta de conversión de texto plano a HTML
 
-_Cursiva_
+: lenguaje de marcado que facilita la escritura de documentos y artículos web
 
-**Negrita**
+# Multimarkdown
 
-__Negrita__
+: Lenguaje de marcado que añade características a las carencias de su hermano Markdown (tablas, notas al pie de página, lostas de definiciones como esta...)
 
-***Cursiva y negrita***
+## Metadatos
+Title: Guía para la utilización de Markdown
 
-___Cursiva y negrita___
+Author: Javier Cristóbal
 
-[enlace en linea](http://www.limni.net)
+Date: 12 de noviembre de 2015  
 
-Me llamo Michelle Alejandra y tengo un blog sobre [Sintaxis Markdown][blog]
+Este es un texto normal [^Esto es una nota] Puedes escribir tanto como necesites. 
+Incluso crear varios párrafos, ya que al final del documento. En este caso, si haces click serás dirigido al final del artículo (pero puedes volver al punto de lectura fácilmente, ¡haz la prueba!)
 
-En dicha [web][blog] practico la forma correcta de escribir uno o varios textos
+[^nombredetunota]:
+## Especificar links de referencia {#Encabezadoreferencia}
+Así se generan referencias a partes concretas de un documento con Multimarkdown
 
-[blog]:http://limni.net/blog/
+Quiero que [este enlace](#referencia) vaya al encabezado de referencias cruzadas
 
-`Esto es una linea de codigo`
+| Primera columna | Segunda columna | Tercera columna |
+| -- | -- | -- |
 
-    Esta es una segunda linea de codigo
+| Contenido 1-1 | Contenido 1-2 | Contenido 1-3 |
+| -- | -- | -- |
 
-![Texto alternativo](ruta/a/la/imagen.jpg "Titulo alternativo")
+| Contenido 2-1 | Contenido 2-2 | Contenido 2-3 |
+| -- | -- | -- |
 
-![nombre de la imagen][img]
-
-![nombre de la imagen2][img2]
+| Contenido 3-1 | Contenido  3-2 | Contenido 3-3 |
+| -- | -- | -- |
